@@ -35,7 +35,7 @@ int main()
   std::cout << "str2.string[0] == " << str2[0] << std::endl;
   line();
 
-  /*std::cout << "Input the length of A and string:\n"; // Åñëè íóæíî, ğàñêîììåíòèğóéòå. P.S. Ââîäèòü äëèíó ñòğîêè áåç íóëåâîãî ñèìâîëà.
+  /*std::cout << "Input the length of A and string:\n"; // Ğ•ÑĞ»Ğ¸ Ğ½ÑƒĞ¶Ğ½Ğ¾, Ñ€Ğ°ÑĞºĞ¾Ğ¼Ğ¼ĞµĞ½Ñ‚Ğ¸Ñ€ÑƒĞ¹Ñ‚Ğµ. P.S. Ğ’Ğ²Ğ¾Ğ´Ğ¸Ñ‚ÑŒ Ğ´Ğ»Ğ¸Ğ½Ñƒ ÑÑ‚Ñ€Ğ¾ĞºĞ¸ Ğ±ĞµĞ· Ğ½ÑƒĞ»ĞµĞ²Ğ¾Ğ³Ğ¾ ÑĞ¸Ğ¼Ğ²Ğ¾Ğ»Ğ°.
   std::cin >> str3;
   std::cout << "str3 == " << str3 << std::endl;
   line();*/
