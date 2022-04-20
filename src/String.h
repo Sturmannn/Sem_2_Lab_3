@@ -18,8 +18,10 @@ public:
 
   int StrLen(const char* str);
   int Find(char ñ);
-  int Find(TString& p);
+  int* Find(TString& p);
   int GetCountOfSplit();
+  int GetCountOfFindIndexes();
+  int GetCountStringOfSymbols();
   TString* Split(char c);
 
   TString operator + (const char* s);
@@ -34,10 +36,18 @@ public:
   char& operator [] (int n);
   friend std::ostream& operator << (std::ostream& B, TString& A);
   friend std::istream& operator >> (std::istream& B, TString& A);
+  TString& DoubleStr(int k);
+  char MostPopularSymbol();
+  int** StringOfSymbols();
 
 protected:
 
   char* string;
   int length;
-
+  int countSplit;
+  int countFinds;
+  int countStringOfSymbols;
+  void SetCountStringOfSymbols(int count);
+  void SetCountOfSplit(int count);
+  void SetCountOfFindIndexes(int count);
 };
